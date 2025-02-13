@@ -6,11 +6,12 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function Home() {
     return (
-        <div className={`min-h-screen bg-gray-50 p-4 md:p-8`}>
+        <div className="min-h-screen bg-gray-50 p-4 md:p-8">
             <div className="max-w-4xl mx-auto space-y-6">
                 {/* Profile Card */}
                 <Card className="border-2 border-[#224ed4]/20">
@@ -38,19 +39,13 @@ export default function Home() {
                                 </div>
 
                                 <div className="flex items-center gap-4">
-                                    <div className="flex items-center gap-2">
-                                        <Github size={20} className="text-gray-600" />
-                                        <a href="https://github.com/MustafaAkagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
+                                    <a href="https://github.com/MustafaAkagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
+                                        <SiGithub size={20} />
+                                    </a>
 
-                                        </a>
-                                    </div>
-
-                                    <div className="flex items-center gap-2">
-                                        <Linkedin size={20} className="text-gray-600" />
-                                        <a href="https://linkedin.com/in/mustafa-akagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
-
-                                        </a>
-                                    </div>
+                                    <a href="https://linkedin.com/in/mustafa-akagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
+                                        <SiLinkedin size={20} />
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -62,17 +57,13 @@ export default function Home() {
                     <AccordionItem value="about" className="border-2 border-[#224ed4]/20 rounded-lg">
                         <AccordionTrigger className="px-6 text-[#224ed4] hover:text-[#224ed4]/80">About</AccordionTrigger>
                         <AccordionContent className="px-6 pb-4">
-                            <p className="text-gray-600">
+                            <ul className="text-gray-600 space-y-2">
                                 <li>Senior Computer Engineering student with a strong passion for full-stack web development.</li>
                                 <li>Highly adaptable and quick to learn new technologies, with a strong work ethic, self-discipline,
                                     and effective team communication skills.</li>
-
                                 <li>Beyond software development, I run a YouTube channel
                                     called "Kısaca AKA" where I share content on software, personal development, algorithm challenges, and vlogs.</li>
-
-
-
-                            </p>
+                            </ul>
                         </AccordionContent>
                     </AccordionItem>
 
@@ -156,7 +147,7 @@ export default function Home() {
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }
