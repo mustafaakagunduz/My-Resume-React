@@ -15,7 +15,12 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <main className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
-      <CVPage></CVPage>
+      <>
+        selam
+        <CVPage></CVPage>
+        selam
+      </>
+
 
     </main>
   );
