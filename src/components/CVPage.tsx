@@ -15,25 +15,43 @@ export default function Home() {
                 {/* Profile Card */}
                 <Card className="border-2 border-[#224ed4]/20">
                     <CardContent className="p-6">
-                        <div className="flex flex-col items-center text-center gap-6">
+                        <div className="flex flex-col items-center text-center gap-4">
                             <div>
                                 <h1 className="text-2xl font-bold text-[#224ed4]">Mustafa İhsan AKAGÜNDÜZ</h1>
                                 <p className="text-gray-600 mt-1">Senior Computer Engineering Student at Hacettepe University</p>
                                 <p className="text-gray-600">Çankaya, Ankara</p>
                             </div>
-                            <div className="flex gap-6 justify-center">
-                                <a href="mailto:akagunduzmustafa00@gmail.com" className="text-gray-600 hover:text-[#224ed4]">
-                                    <Mail size={24} />
-                                </a>
-                                <a href="tel:+905465566110" className="text-gray-600 hover:text-[#224ed4]">
-                                    <Phone size={24} />
-                                </a>
-                                <a href="https://github.com/MustafaAkagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
-                                    <Github size={24} />
-                                </a>
-                                <a href="https://linkedin.com/in/mustafa-akagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
-                                    <Linkedin size={24} />
-                                </a>
+
+                            <div className="flex flex-col items-center gap-3">
+                                <div className="flex items-center gap-2">
+                                    <Mail size={20} className="text-gray-600" />
+                                    <a href="mailto:akagunduzmustafa00@gmail.com" className="text-gray-600 hover:text-[#224ed4]">
+                                        akagunduzmustafa00@gmail.com
+                                    </a>
+                                </div>
+
+                                <div className="flex items-center gap-2">
+                                    <Phone size={20} className="text-gray-600" />
+                                    <span className="text-gray-600">
+                                        +90 546 556 61 10
+                                    </span>
+                                </div>
+
+                                <div className="flex items-center gap-4">
+                                    <div className="flex items-center gap-2">
+                                        <Github size={20} className="text-gray-600" />
+                                        <a href="https://github.com/MustafaAkagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
+
+                                        </a>
+                                    </div>
+
+                                    <div className="flex items-center gap-2">
+                                        <Linkedin size={20} className="text-gray-600" />
+                                        <a href="https://linkedin.com/in/mustafa-akagunduz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#224ed4]">
+
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </CardContent>
@@ -45,10 +63,15 @@ export default function Home() {
                         <AccordionTrigger className="px-6 text-[#224ed4] hover:text-[#224ed4]/80">About</AccordionTrigger>
                         <AccordionContent className="px-6 pb-4">
                             <p className="text-gray-600">
-                                Senior Computer Engineering student with a strong passion for full-stack web development.
-                                Highly adaptable and quick to learn new technologies, with a strong work ethic, self-discipline,
-                                and effective team communication skills. Beyond software development, I run a YouTube channel
-                                called "Kısaca AKA" where I share content on software, personal development, algorithm challenges, and vlogs.
+                                <li>Senior Computer Engineering student with a strong passion for full-stack web development.</li>
+                                <li>Highly adaptable and quick to learn new technologies, with a strong work ethic, self-discipline,
+                                    and effective team communication skills.</li>
+
+                                <li>Beyond software development, I run a YouTube channel
+                                    called "Kısaca AKA" where I share content on software, personal development, algorithm challenges, and vlogs.</li>
+
+
+
                             </p>
                         </AccordionContent>
                     </AccordionItem>
@@ -76,7 +99,6 @@ export default function Home() {
                                         <li>• Designed and implemented an interactive survey system to evaluate user proficiency across IT skills.</li>
                                     </ul>
                                 </div>
-
                                 <div>
                                     <h3 className="font-semibold text-[#224ed4]">TÜBİTAK BİLGEM YTE</h3>
                                     <p className="text-sm text-gray-500">Jun 2024 – Aug 2024</p>
@@ -85,13 +107,19 @@ export default function Home() {
                                         <li>• Led full-stack development efforts for the 'New Personnel' system.</li>
                                     </ul>
                                 </div>
-
                                 <div>
                                     <h3 className="font-semibold text-[#224ed4]">TURKCELL İletişim A.Ş.</h3>
                                     <p className="text-sm text-gray-500">Aug 2023 – Sept 2023</p>
                                     <ul className="mt-2 space-y-2 text-gray-600">
                                         <li>• Developed a comprehensive documentation system for backend services.</li>
                                         <li>• Reduced onboarding time for new developers.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-[#224ed4]">ACM Hacettepe (Association of Computing Machinery)</h3>
+                                    <p className="text-sm text-gray-500">Oct 2022 – Present</p>
+                                    <ul className="mt-2 space-y-2 text-gray-600">
+                                        <li>• Designed visual materials using Adobe Photoshop and CapCut for ACM Hacettepe's event promotions and marketing campaigns.</li>
                                     </ul>
                                 </div>
                             </div>
