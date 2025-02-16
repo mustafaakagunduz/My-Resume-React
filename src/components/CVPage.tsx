@@ -151,8 +151,14 @@ export default function Home() {
                         <AccordionTrigger className="px-6 text-[#224ed4] hover:text-[#224ed4]/80">Projects</AccordionTrigger>
                         <AccordionContent className="px-6 pb-4">
                             <div className="space-y-6">
+
+
+
+
                                 <div>
-                                    <h3 className="font-semibold text-[#224ed4]">DX-HRSAM (Graduation Project)</h3>
+                                    <h3 className="font-semibold text-[#224ed4]"> FULL-STACK:</h3>
+                                    <br></br>
+                                    <h3 className="font-semibold text-[#224ed4]"> 1) 'AI-Powered' DX-HRSAM (Graduation Project)</h3>
                                     <p className="text-sm text-gray-500">2024 - 2025</p>
                                     <ul className="mt-2 space-y-2 text-gray-600">
                                         <li>• Led development of a Human Resources Skill Assessment Model platform for personality assessment and role matching in recruitment processes.</li>
@@ -161,7 +167,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="font-semibold text-[#224ed4]">New Personnel Information System (Real-World Project)</h3>
+                                    <h3 className="font-semibold text-[#224ed4]"> 2) New Personnel Information System (Real-World Project)</h3>
                                     <p className="text-sm text-gray-500">2024</p>
                                     <ul className="mt-2 space-y-2 text-gray-600">
                                         <li>• Developed a comprehensive personnel management system at TÜBİTAK using Spring Boot, Next.js, React, and TypeScript.</li>
@@ -169,23 +175,18 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="font-semibold text-[#224ed4]">ShopSmart (Course Project)</h3>
+                                    <h3 className="font-semibold text-[#224ed4]"> 3) RRSS for Shopsmart (Course Project)</h3>
                                     <p className="text-sm text-gray-500">2024</p>
                                     <ul className="mt-2 space-y-2 text-gray-600">
+                                        <li>• RRSS(Review and Recommendation System for Shopsmart)</li>
                                         <li>• Collaborated in a 5-member team to develop a full-stack e-commerce platform using Spring Boot and React.</li>
                                     </ul>
                                 </div>
 
-                                <div>
-                                    <h3 className="font-semibold text-[#224ed4]">Car Dealership Management System (Portfolio Project)</h3>
-                                    <p className="text-sm text-gray-500">2025</p>
-                                    <ul className="mt-2 space-y-2 text-gray-600">
-                                        <li>• Developed an advanced backend service for vehicle sales and management using Spring Boot.</li>
-                                    </ul>
-                                </div>
+
 
                                 <div>
-                                    <h3 className="font-semibold text-[#224ed4]">QuestApp (Portfolio Project)</h3>
+                                    <h3 className="font-semibold text-[#224ed4]"> 4) QuestApp (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500">2023</p>
                                     <ul className="mt-2 space-y-2 text-gray-600">
                                         <li>• Built a Q&A platform enabling user interactions with followers using Spring Boot and React.</li>
@@ -193,12 +194,71 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="font-semibold text-[#224ed4]">Twitter Clone (Portfolio Project)</h3>
+                                    <h3 className="font-semibold text-[#224ed4]"> 5)Twitter Clone (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500">2023</p>
                                     <ul className="mt-2 space-y-2 text-gray-600">
                                         <li>• Created a social media platform using Django, HTML, CSS, JavaScript, and Bootstrap.</li>
                                     </ul>
                                 </div>
+
+                                <h3 className="font-semibold text-[#224ed4]"> FRONTEND-ONLY:</h3>
+                                <div>
+                                    <h3 className="font-semibold text-[#224ed4]"> 6) My Resume (Portfolio Project)</h3>
+                                    <p className="text-sm text-gray-500">2025</p>
+                                    <ul className="mt-2 space-y-2 text-gray-600">
+                                        <li>• I made this project to publish my up-to-date CV for recruiters.</li>
+                                        <li>• Tech stack: NextJS , ReactJS, Typescript</li>
+                                        <li>• Deployed : <a
+                                            href="https://cv-uwdm.vercel.app"
+                                            target="_blank"
+                                            style={{ color: "blue" }}
+                                        >
+                                            https://cv-uwdm.vercel.app
+                                        </a> </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-[#224ed4]"> 7) 'AI-Powered' Match-App (Portfolio Project)</h3>
+                                    <p className="text-sm text-gray-500">2025</p>
+                                    <ul className="mt-2 space-y-2 text-gray-600">
+                                        <li>• It is an application that evaluates candidates and employers' suitability for job postings and creates a letter of intent for candidates and a personalized letters for employers.</li>
+                                        <li>• Tech stack: NextJS , ReactJS, Typescript, Google Gemini</li>
+                                        <li>• Deployed : <a
+                                            href="https://match-app-react.vercel.app"
+                                            target="_blank"
+                                            style={{ color: "blue" }}
+                                        >
+                                            https://match-app-react.vercel.app
+                                        </a> </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-[#224ed4]"> 8) Shopsmart (Portfolio Project)</h3>
+                                    <p className="text-sm text-gray-500">2025</p>
+                                    <ul className="mt-2 space-y-2 text-gray-600">
+                                        <li>• This is an imaginiary e-commerce website page. Just for fun.. :) </li>
+                                        <li>• Tech stack: NextJS , ReactJS, Typescript</li>
+                                        <li>• Deployed : <a
+                                            href="https://e-commerce-website-react-xi.vercel.app"
+                                            target="_blank"
+                                            style={{ color: "blue" }}
+                                        >
+                                            https://e-commerce-website-react-xi.vercel.app
+                                        </a> </li>
+                                    </ul>
+                                </div>
+
+
+                                <h3 className="font-semibold text-[#224ed4]"> BACKEND-ONLY:</h3>
+
+                                <div>
+                                    <h3 className="font-semibold text-[#224ed4]"> 9) Car Dealership Management System (Portfolio Project)</h3>
+                                    <p className="text-sm text-gray-500">2025</p>
+                                    <ul className="mt-2 space-y-2 text-gray-600">
+                                        <li>• Developed an advanced backend service for vehicle sales and management using Spring Boot.</li>
+                                    </ul>
+                                </div>
+
                             </div>
                         </AccordionContent>
                     </AccordionItem>
