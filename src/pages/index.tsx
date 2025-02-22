@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <main className={`${geistSans.variable} ${geistMono.variable} font-sans`}>
       <>
-        selam
+
         <CVPage></CVPage>
-        selam
+
       </>
 
 

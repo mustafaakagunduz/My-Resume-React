@@ -75,6 +75,18 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-33.33% - 0px));
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
 
 @layer base {
   * {
