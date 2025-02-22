@@ -48,7 +48,7 @@ const TechScroll = () => {
         const fileName = `${i + 1}.png`;
         return {
             id: i + 1,
-            src: `/tech/${fileName}?v=${mounted ? Date.now() : ''}`, // Cache busting
+            src: `${fileName}?v=${mounted ? Date.now() : ''}`, // Cache busting
             alt: techMapping[fileName] || `Tech ${i + 1}`
         };
     });
