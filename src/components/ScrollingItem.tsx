@@ -1,32 +1,88 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip";
+
+interface TechIcon {
+    id: number;
+    src: string;
+    alt: string;
+}
 
 const TechScroll = () => {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    // Technology mapping with type safety
+    const techMapping: Record<string, string> = {
+        '1.png': 'Java',
+        '2.png': 'Spring Boot',
+        '3.png': 'NextJS',
+        '4.png': 'ReactJS',
+        '5.png': 'TypeScript',
+        '6.png': 'PostgreSQL',
+        '7.png': 'Git',
+        '8.png': 'Jira',
+        '9.png': 'Python',
+        '10.png': 'Django',
+        '11.png': 'HTML',
+        '12.png': 'CSS',
+        '13.png': 'Javascript',
+        '14.png': 'Postman',
+        '15.png': 'DBeaver',
+        '16.png': 'Figma',
+        '17.png': 'Adobe Photoshop',
+        '18.png': 'IntelliJ IDEA',
+        '19.png': 'Webstorm',
+        '20.png': 'VS Code'
+    };
+
     // Ana ikon listesi
-    const baseIcons = Array.from({ length: 20 }, (_, i) => ({
-        id: i + 1,
-        src: `/${i + 1}.png`,
-        alt: `Tech ${i + 1}`
-    }));
+    const baseIcons: TechIcon[] = Array.from({ length: 20 }, (_, i) => {
+        const fileName = `${i + 1}.png`;
+        return {
+            id: i + 1,
+            src: `/tech/${fileName}?v=${mounted ? Date.now() : ''}`, // Cache busting
+            alt: techMapping[fileName] || `Tech ${i + 1}`
+        };
+    });
 
     // İkonları 3 kez tekrarlayarak sürekli akış sağlayacağız
     const scrollingIcons = [...baseIcons, ...baseIcons, ...baseIcons];
 
     return (
-        <div className="relative w-full overflow-hidden rounded-lg border-2 border-[#224ed4]/20">
-            <div className="animate-scroll inline-flex py-4">
-                {scrollingIcons.map((icon, index) => (
-                    <div
-                        key={`${icon.id}-${index}`}
-                        className="inline-flex h-12 w-12 flex-shrink-0 rounded-full overflow-hidden mx-3"
-                    >
-                        <img
-                            src={icon.src}
-                            alt={icon.alt}
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                ))}
-            </div>
+        <div className="relative w-full overflow-hidden border-2 border-slate-700 rounded-lg bg-slate-800/70 backdrop-blur-sm">
+            <TooltipProvider>
+                <div className="animate-scroll inline-flex py-4">
+                    {scrollingIcons.map((icon, index) => (
+                        <Tooltip key={`${icon.id}-${index}-${mounted}`}>
+                            <TooltipTrigger>
+                                <div className="inline-flex h-12 w-12 flex-shrink-0 rounded-full overflow-hidden mx-3">
+                                    <img
+                                        src={icon.src}
+                                        alt={icon.alt}
+                                        className="w-full h-full object-cover"
+                                        loading="lazy"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.style.display = 'none';
+                                        }}
+                                    />
+                                </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p className="text-sm font-medium">{icon.alt}</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    ))}
+                </div>
+            </TooltipProvider>
         </div>
     );
 };
