@@ -57,7 +57,7 @@ const TechScroll = () => {
     const scrollingIcons = [...baseIcons, ...baseIcons, ...baseIcons];
 
     return (
-        <div className="relative w-full overflow-hidden border-2 border-slate-700 rounded-lg bg-slate-800/70 backdrop-blur-sm">
+        <div className="relative w-full overflow-hidden border-2 border-border bg-card/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-lg">
             <TooltipProvider>
                 <div className="animate-scroll inline-flex py-4">
                     {scrollingIcons.map((icon, index) => (
@@ -77,7 +77,7 @@ const TechScroll = () => {
                                 </div>
                             </TooltipTrigger>
                             <TooltipContent>
-                                <p className="text-sm font-medium">{icon.alt}</p>
+                                <p className="text-sm font-medium text-foreground">{icon.alt}</p>
                             </TooltipContent>
                         </Tooltip>
                     ))}
