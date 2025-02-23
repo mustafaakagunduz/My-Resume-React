@@ -256,7 +256,7 @@ export default function Home() {
                                         <li className="leading-relaxed">• Deployed: <a href="https://interior-design-company-website.vercel.app"
                                                                                        target="_blank"
                                                                                        rel="noopener noreferrer"
-                                                                                       className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://cv-uwdm.vercel.app</a>
+                                                                                       className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://interior-design-company-website.vercel.app</a>
                                         </li>
                                     </ul>
                                 </div>
