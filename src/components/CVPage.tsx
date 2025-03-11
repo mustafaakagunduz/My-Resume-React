@@ -178,91 +178,48 @@ export default function Home() {
                         </AccordionTrigger>
                         <AccordionContent className="px-6 pb-4">
                             <div className="space-y-6">
-                                <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2">FULL-STACK</h3>
+                                <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2">FRONTEND</h3>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">1) 'AI-Powered' DX-HRSAM
-                                        (Graduation Project)</h3>
-                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024 - 2025</p>
-                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
-                                        <li className="leading-relaxed">• Led development of a Human Resources Skill
-                                            Assessment Model platform for personality assessment and role matching in
-                                            recruitment processes.
-                                        </li>
-                                        <li className="leading-relaxed">• Implemented employee skill evaluation system
-                                            with targeted training recommendations using Spring Boot, Next.js, React,
-                                            TypeScript, and PostgreSQL.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">2) New Personnel
-                                        Information System (Real-World Project)</h3>
-                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024</p>
-                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
-                                        <li className="leading-relaxed">• Developed a comprehensive personnel management
-                                            system at TÜBİTAK using Spring Boot, Next.js, React, and TypeScript.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">3) RRSS for Shopsmart
-                                        (Course Project)</h3>
-                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024</p>
-                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
-                                        <li className="leading-relaxed">• RRSS(Review and Recommendation System for
-                                            Shopsmart)
-                                        </li>
-                                        <li className="leading-relaxed">• Collaborated in a 5-member team to develop a
-                                            full-stack e-commerce platform using Spring Boot and React.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">4) QuestApp (Portfolio
-                                        Project)</h3>
-                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2023</p>
-                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
-                                        <li className="leading-relaxed">• Built a Q&A platform enabling user
-                                            interactions with followers using Spring Boot and React.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">5) Twitter Clone
-                                        (Portfolio Project)</h3>
-                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2023</p>
-                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
-                                        <li className="leading-relaxed">• Created a social media platform using Django,
-                                            HTML, CSS, JavaScript, and Bootstrap.
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2 mt-8">FRONTEND-ONLY</h3>
-
-                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">6) Webpage for Interior-Desing Company: Spring Concepts (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">1) Kanban.im (My Kanban) (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
-                                        <li className="leading-relaxed">• My imaginary web page design work that I received from an imaginary company.
+                                        <li className="leading-relaxed">• Open source web application
+                                        </li>
+                                        <li className="leading-relaxed">• Helps users organize their tasks and daily to-do's..
                                         </li>
                                         <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript</li>
-                                        <li className="leading-relaxed">• Deployed: <a href="https://interior-design-company-website.vercel.app"
-                                                                                       target="_blank"
-                                                                                       rel="noopener noreferrer"
-                                                                                       className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://interior-design-company-website.vercel.app</a>
+                                        <li className="leading-relaxed">• Deployed: <a
+                                            href="https://www.kanban.im"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://www.kanban.im</a>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">7) My Resume (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">2) Webpage for
+                                        Interior-Desing Company: Spring Concepts (Portfolio
+                                        Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• My imaginary web page design work that I
+                                            received from an imaginary company.
+                                        </li>
+                                        <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript</li>
+                                        <li className="leading-relaxed">• Deployed: <a
+                                            href="https://interior-design-company-website.vercel.app"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://interior-design-company-website.vercel.app</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">3) My Resume (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -279,8 +236,8 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">8) 'AI-Powered'
-                                        Match-App (Portfolio Project)</h3>
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">4) AI-Powered
+                                        "Üzgünüz, fakat.." (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
                                         <li className="leading-relaxed">• It is an application that evaluates candidates
@@ -288,18 +245,18 @@ export default function Home() {
                                             for candidates and personalized letters for employers.
                                         </li>
                                         <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript,
-                                            Google Gemini
+                                            ChatGPT API
                                         </li>
                                         <li className="leading-relaxed">• Deployed: <a href="https://uzgunuz-fakat.com"
                                                                                        target="_blank"
                                                                                        rel="noopener noreferrer"
-                                                                                       className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://match-app-react.vercel.app</a>
+                                                                                       className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://www.uzgunuz-fakat.com</a>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">9) Shopsmart (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">5) Shopsmart (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -315,10 +272,75 @@ export default function Home() {
                                     </ul>
                                 </div>
 
-                                <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2 mt-8">BACKEND-ONLY</h3>
+                                <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2 mt-8">FULL-STACK</h3>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">10) Car Dealership
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">6) 'AI-Powered' DX-HRSAM
+                                        (Graduation Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024 - 2025</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• Led development of a Human Resources Skill
+                                            Assessment Model platform for personality assessment and role matching in
+                                            recruitment processes.
+                                        </li>
+                                        <li className="leading-relaxed">• Implemented employee skill evaluation system
+                                            with targeted training recommendations using Spring Boot, Next.js, React,
+                                            TypeScript, and PostgreSQL.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">7) New Personnel
+                                        Information System (Real-World Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• Developed a comprehensive personnel management
+                                            system at TÜBİTAK using Spring Boot, Next.js, React, and TypeScript.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">8) RRSS for Shopsmart
+                                        (Course Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• RRSS(Review and Recommendation System for
+                                            Shopsmart)
+                                        </li>
+                                        <li className="leading-relaxed">• Collaborated in a 5-member team to develop a
+                                            full-stack e-commerce platform using Spring Boot and React.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">9) QuestApp (Portfolio
+                                        Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2023</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• Built a Q&A platform enabling user
+                                            interactions with followers using Spring Boot and React.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">10) Twitter Clone
+                                        (Portfolio Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2023</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• Created a social media platform using Django,
+                                            HTML, CSS, JavaScript, and Bootstrap.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2 mt-8">BACKEND</h3>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white">11) Car Dealership
                                         Management System (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
