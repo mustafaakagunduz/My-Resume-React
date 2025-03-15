@@ -84,7 +84,7 @@ export default function Home() {
                             <div>
                                 <h3 className="font-semibold text-gray-900 dark:text-white text-lg">Hacettepe University</h3>
                                 <p className="text-gray-600 dark:text-slate-300 mt-1">B.Sc. in Computer Engineering</p>
-                                <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">Expected Graduation: 2025</p>
+
                             </div>
                         </AccordionContent>
                     </AccordionItem>
