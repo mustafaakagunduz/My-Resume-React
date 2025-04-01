@@ -181,13 +181,35 @@ export default function Home() {
                                 <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2">FRONTEND</h3>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">1) Kanban.im (My Kanban) (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Weather-Wear
+                                        (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
                                         <li className="leading-relaxed">• Open source web application
                                         </li>
-                                        <li className="leading-relaxed">• Helps users organize their tasks and daily to-do's..
+                                        <li className="leading-relaxed">• AI-Powered Web Application for Automatically Detecting Users' Location and Providing Daily Outfit Recommendations..
+                                        </li>
+                                        <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript, OpenAI API </li>
+                                        <li className="leading-relaxed">• Deployed: <a
+                                            href="https://weather-wear-three.vercel.app"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://weather-wear-three.vercel.app</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Kanban.im (My Kanban)
+                                        (Portfolio
+                                        Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• Open source web application
+                                        </li>
+                                        <li className="leading-relaxed">• Helps users organize their tasks and daily
+                                            to-do's..
                                         </li>
                                         <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript</li>
                                         <li className="leading-relaxed">• Deployed: <a
@@ -200,7 +222,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">2) Webpage for
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Webpage for
                                         Interior-Desing Company: Spring Concepts (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
@@ -219,7 +241,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">3) My Resume (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> My Resume (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -236,7 +258,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">4) AI-Powered
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> AI-Powered
                                         "Üzgünüz, fakat.." (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -245,7 +267,7 @@ export default function Home() {
                                             for candidates and personalized letters for employers.
                                         </li>
                                         <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript,
-                                            ChatGPT API
+                                            OpenAI API
                                         </li>
                                         <li className="leading-relaxed">• Deployed: <a href="https://uzgunuz-fakat.com"
                                                                                        target="_blank"
@@ -256,7 +278,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">5) Shopsmart (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Shopsmart (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -275,7 +297,7 @@ export default function Home() {
                                 <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2 mt-8">FULL-STACK</h3>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">6) 'AI-Powered' DX-HRSAM
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> 'AI-Powered' DX-HRSAM
                                         (Graduation Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024 - 2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -291,7 +313,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">7) New Personnel
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> New Personnel
                                         Information System (Real-World Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -302,7 +324,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">8) RRSS for Shopsmart
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> RRSS for Shopsmart
                                         (Course Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2024</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -316,7 +338,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">9) QuestApp (Portfolio
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> QuestApp (Portfolio
                                         Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2023</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -327,7 +349,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">10) Twitter Clone
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Twitter Clone
                                         (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2023</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
@@ -340,7 +362,7 @@ export default function Home() {
                                 <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2 mt-8">BACKEND</h3>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
-                                    <h3 className="font-semibold text-gray-900 dark:text-white">11) Car Dealership
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Car Dealership
                                         Management System (Portfolio Project)</h3>
                                     <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">

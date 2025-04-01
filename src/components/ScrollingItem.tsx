@@ -40,11 +40,12 @@ const TechScroll = () => {
         '17.png': 'Adobe Photoshop',
         '18.png': 'IntelliJ IDEA',
         '19.png': 'Webstorm',
-        '20.png': 'VS Code'
+        '20.png': 'VS Code',
+        '21.png': 'OpenAI'
     };
 
     // Ana ikon listesi
-    const baseIcons: TechIcon[] = Array.from({ length: 20 }, (_, i) => {
+    const baseIcons: TechIcon[] = Array.from({ length: 21 }, (_, i) => {
         const fileName = `${i + 1}.png`;
         return {
             id: i + 1,
