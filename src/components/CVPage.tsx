@@ -181,6 +181,27 @@ export default function Home() {
                                 <h3 className="font-semibold text-gray-900 dark:text-white text-lg border-b border-gray-300 dark:border-slate-600 pb-2">FRONTEND</h3>
 
                                 <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
+                                    <h3 className="font-semibold text-gray-900 dark:text-white"> Algorithm Question Tracker
+                                        (Portfolio
+                                        Project)</h3>
+                                    <p className="text-sm text-gray-500 dark:text-slate-400 mt-1">2025</p>
+                                    <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
+                                        <li className="leading-relaxed">• A web application that helps users repeat previously solved algorithm questions at intervals according to the difficulty levels they determine.
+                                        </li>
+
+                                        <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript, Tailwind CSS
+
+                                        </li>
+                                        <li className="leading-relaxed">• Deployed: <a
+                                            href="https://question-tracker-seven.vercel.app"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://question-tracker-seven.vercel.app</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="border-l-2 border-gray-300 dark:border-slate-600 pl-4">
                                     <h3 className="font-semibold text-gray-900 dark:text-white"> Weather-Wear
                                         (Portfolio
                                         Project)</h3>
@@ -188,9 +209,12 @@ export default function Home() {
                                     <ul className="mt-3 space-y-2 text-gray-600 dark:text-slate-300">
                                         <li className="leading-relaxed">• Open source web application
                                         </li>
-                                        <li className="leading-relaxed">• AI-Powered Web Application for Automatically Detecting Users' Location and Providing Daily Outfit Recommendations..
+                                        <li className="leading-relaxed">• AI-Powered Web Application for Automatically
+                                            Detecting Users' Location and Providing Daily Outfit Recommendations..
                                         </li>
-                                        <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript, OpenAI API </li>
+                                        <li className="leading-relaxed">• Tech stack: NextJS, ReactJS, Typescript,
+                                            OpenAI API
+                                        </li>
                                         <li className="leading-relaxed">• Deployed: <a
                                             href="https://weather-wear-three.vercel.app"
                                             target="_blank"
