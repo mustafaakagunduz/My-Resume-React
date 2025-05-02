@@ -333,6 +333,11 @@ export default function Home() {
                                             with targeted training recommendations using Spring Boot, Next.js, React,
                                             TypeScript, and PostgreSQL.
                                         </li>
+                                        <li className="leading-relaxed">• Deployed: <a
+                                            href="https://skillfit.com.tr" target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-600 hover:text-gray-900 dark:text-slate-300 dark:hover:text-white underline">https://skillfit.com.tr</a>
+                                        </li>
                                     </ul>
                                 </div>
 
