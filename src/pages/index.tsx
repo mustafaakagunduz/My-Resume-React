@@ -138,7 +138,7 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
         skills: [
             {
                 category: "Programming Languages & Frameworks",
-                items: "Java (Spring Boot), Python (Django), TypeScript (React)"
+                items: "Java (Spring Boot), Supabase, Python, TypeScript (React), NextJS"
             },
             {
                 category: "Web Development Tools",

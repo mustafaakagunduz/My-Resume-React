@@ -31,7 +31,7 @@ const TechScroll = () => {
         '7.png': 'Git',
         '8.png': 'Jira',
         '9.png': 'Python',
-        '10.png': 'Django',
+        '10.png': 'Supabase',
         '11.png': 'HTML',
         '12.png': 'CSS',
         '13.png': 'Javascript',
